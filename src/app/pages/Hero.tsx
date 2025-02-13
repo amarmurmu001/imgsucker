@@ -6,11 +6,11 @@ function Hero() {
     <div className="flex flex-col items-center px-10 md:px-40 pt-8 w-full h-[calc(100vh-88px)] relative   overflow-hidden">
       
         <div className="flex flex-col gap-4 items-center text-center">
-          <h1 className="text-white text-4xl md:text-5xl font-bold">
-            Suck Images
+          <h1 className="text-white text-4xl md:text-5xl font-bold leading-snug">
+            Suck Images <br /> From any <span className="text-yellow-400">public website</span> 
           </h1>
           <p className="text-white text-sm bg-[#575756] border px-6 py-2 rounded-full">
-            From any public website
+            No.1 image scraping tool
           </p>
         </div>
 

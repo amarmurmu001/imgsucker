@@ -8,7 +8,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center px-6 md:px-40 py-6  bg-[#222222] text-white">
+    <nav className="flex justify-between items-center lg:mx-20 px-6 py-6   bg-[#222222] text-white  rounded-[50px]">
       <div>
         <Link href="/">
           <Image src="/subtract.png" alt="logo" width={50} height={50} />
@@ -33,7 +33,7 @@ function Nav() {
       
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-16 z-10 left-0 w-full bg-[#222222] flex flex-col items-center py-6 md:hidden">
+        <div className="absolute top-16 z-10 left-0 w-full h-[calc(100vh-8%)] justify-around font-bold text-3xl bg-[#222222] flex flex-col items-center py-6 md:hidden">
           <Link href="/" className="py-2" onClick={() => setIsOpen(false)}>Home</Link>
           <Link href="/about" className="py-2" onClick={() => setIsOpen(false)}>About</Link>
           <Link href="/contact" className="py-2" onClick={() => setIsOpen(false)}>Contact</Link>
