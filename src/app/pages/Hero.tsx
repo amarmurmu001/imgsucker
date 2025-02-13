@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center px-10 md:px-40 pt-8 w-full  overflow-hidden">
+    <div className="flex flex-col items-center px-10 md:px-40 pt-8 w-full h-[calc(100vh-88px)] relative   overflow-hidden">
       
         <div className="flex flex-col gap-4 items-center text-center">
           <h1 className="text-white text-4xl md:text-5xl font-bold">
@@ -30,7 +30,7 @@ function Hero() {
       <Image
         src="/Group 3.png"
         alt="landscape"
-        className="mt-[70px]"
+        className="mt-[70px] absolute  bottom-0"
         width={1000}
         height={500}
       />
