@@ -1,10 +1,11 @@
 import Nav from "@/components/Nav";
 import Hero from "./pages/Hero";
+import Result from "./pages/Result";
 export default function Home() {
   return (
-    <div className="bg-[#222222]">
-      <Nav />
+    <div >
       <Hero />
+      <Result />
     </div>
   )
 }
