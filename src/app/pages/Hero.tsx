@@ -5,11 +5,11 @@ import Image from "next/image";
 function Hero() {
   const [url, setUrl] = useState<string>("");
   const [images, setImages] = useState<string[]>([]);
-  const [loading, setLoading] = useState<boolean>(false);
+  // const [loading, setLoading] = useState<boolean>(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setLoading(true);
+    // setLoading(true);
 
     try {
       const res = await fetch("/api/scrape", {
@@ -22,7 +22,7 @@ function Hero() {
     } catch (err) {
       console.error(err);
     } finally {
-      setLoading(false);
+      // setLoading(false);
     }
   };
 
