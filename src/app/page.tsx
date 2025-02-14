@@ -1,4 +1,3 @@
-import Nav from "@/components/Nav";
 import Hero from "./pages/Hero";
 import Result from "./pages/Result";
 export default function Home() {

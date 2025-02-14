@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
 
     // Launch Puppeteer with valid headless mode
     const browser = await puppeteer.launch({
-      headless: true, // Change from "new" to true for compatibility
+      headless: true, 
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
     const page = await browser.newPage();
