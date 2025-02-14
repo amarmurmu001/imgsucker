@@ -11,7 +11,7 @@ function Nav() {
     <nav className="flex justify-between items-center lg:mx-20 px-6 py-6   bg-[#222222] text-white  rounded-[50px]">
       <div>
         <Link href="/">
-          <Image src="/subtract.png" alt="logo" width={50} height={50} />
+          <Image src="/Subtract.png" alt="logo" width={50} height={50} />
         </Link>
       </div>
       

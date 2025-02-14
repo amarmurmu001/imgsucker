@@ -38,7 +38,7 @@ function Hero() {
       </div>
 
       <form onSubmit={handleSubmit} className="flex items-center gap-4 bg-white rounded-3xl px-4 py-4 w-full max-w-lg mt-8 shadow-lg">
-        <Image src="/link.png" alt="search icon" width={30} height={30} />
+        <Image src="/Link.png" alt="search icon" width={30} height={30} />
         <input 
           type="url"
           value={url}
